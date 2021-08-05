@@ -58,6 +58,15 @@ You can run the tests from project directory with
 python quantulum-test.py
 ```
 
+### Testcases
+
+You can find all test sentences to be parsed in the corresponding JSON files:
+
+- [Mass Accumulation Rates](test-mar.json) -
+Test data for extraction of mass accumulation rates
+- [Sedimentation Rates](test-sr.json) -
+Test data for extraction of sedimentation rates
+
 ## Built With
 
 - [Quantulum3](https://github.com/nielstron/quantulum3) -
