@@ -1,0 +1,43 @@
+{
+    "input": [
+        {
+            "text": "We have a mass accumulation rate of 10 g/cm2/yr."
+        },
+        {
+            "text": "We have a mass accumulation rate of 10 kg/cm2/yr."
+        },
+        {
+            "text": "We have a mass accumulation rate of 10 g/mm2/yr."
+        },
+        {
+            "text": "We have a mass accumulation rate of 10 g/mm2/year."
+        },
+        {
+            "text": "We have a mass accumulation rate of 10 g/mm2/kyr."
+        },
+        {
+            "text": "We have a mass accumulation rate of 10 g/mm2/Kyr."
+        },
+        {
+            "text": "We have a mass accumulation rate of 10 g/mm2/Myr."
+        },
+        {
+            "text": "We have a mass accumulation rate of 10 kg cm^-2 yr^-1."
+        },
+        {
+            "text": "We have a mass accumulation rate of 10 kg cm-2 yr-1."
+        },
+        {
+            "text": "We have a mass accumulation rate of 10 kg cm-2 year-1."
+        },
+        {
+            "text": "We have a mass accumulation rate of 10 kg cm-2 a-1."
+        },
+        {
+            "text": "We have a mass accumulation rate of 10 kg cm-2 Ka-1."
+        },
+        {
+            "text": "We have a mass accumulation rate of 10 kg cm-2 Ma-1."
+        }
+    ]
+}

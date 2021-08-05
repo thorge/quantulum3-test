@@ -1,0 +1,43 @@
+{
+    "input": [
+        {
+            "text": "We have a sedimentation rate of 10 mm/yr."
+        },
+        {
+            "text": "We have a sedimentation rate of 10 cm/day."
+        },
+        {
+            "text": "We have a sedimentation rate of 10 km/yr."
+        },
+        {
+            "text": "We have a sedimentation rate of 10 cm/kyr."
+        },
+        {
+            "text": "We have a sedimentation rate of 10 m/Kyr."
+        },
+        {
+            "text": "We have a sedimentation rate of 10 m/Myr."
+        },
+        {
+            "text": "We have a sedimentation rate of 10 mm yr-1."
+        },
+        {
+            "text": "We have a sedimentation rate of 10 mm yr^-1."
+        },
+        {
+            "text": "We have a sedimentation rate of 10 mm Kyr-1."
+        },
+        {
+            "text": "We have a sedimentation rate of 10 mm Kyr^-1."
+        },
+        {
+            "text": "We have a sedimentation rate of 10 mm a^-1."
+        },
+        {
+            "text": "We have a sedimentation rate of 10 mm Ka^-1."
+        },
+        {
+            "text": "We have a sedimentation rate of 10 mm Ma^-1."
+        }
+    ]
+}
