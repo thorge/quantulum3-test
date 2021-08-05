@@ -19,7 +19,7 @@ pathspec==0.9.0
 pipenv==2021.5.29
 platformdirs==2.2.0
 pycodestyle==2.7.0
--e git+git@github.com:thorge/quantulum3.git@e6634e01d204a7066b7df8a8431d203967e5c94d#egg=quantulum3
+-e git+git@github.com:thorge/quantulum3.git@341885081cf28667c7e0538aa34a0b5a138c0afc#egg=quantulum3
 regex==2021.8.3
 requests==2.26.0
 scikit-learn==0.24.2
