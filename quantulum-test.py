@@ -1,29 +1,49 @@
 from quantulum3 import parser
 import json
 
-#from quantulum3.load import add_custom_unit, remove_custom_unit
-
-
-#add_custom_unit(name="schlurp", surfaces=["slp"], entity="dimensionless")
-#parser.parse("This extremely sharp tool is precise up to 0.5 slp")
-
 
 def test(input):
-    i = 1
-    for testCase in input:
-        print(f'({i}): ' + testCase['text'])
-        quants = parser.parse(testCase['text'])
-        print(quants)
-        print('\n')
-        i += 1
+    values = 0
+    entities = 0
+    units = 0
 
+    i = 0
+    for testCase in input:
+        try:
+            quants = parser.parse(testCase['text'])
+            print(f'({i}): ' + testCase['text'])
+            print(quants)
+            i += 1
+            if quants[0].unit.name == testCase['unit']:
+                units += 1
+            if quants[0].unit.entity.name == testCase['entity']:
+                entities += 1
+            if quants[0].value == float(testCase['value']):
+                values += 1
+        except:
+            print('Could not process testcase: ' + testCase['text'])
+
+    result = {
+        "total": len(input),
+        "evaluation": {
+            "values": values,
+            "entities": entities,
+            "units": units
+        }
+    }
+
+    return result
+
+
+### Testing ###
+res = {}
 
 # Test Mass Accumulation Rates
 print("### Testing mass accumulation rates: ###\n")
 with open("test-mar.json") as jsonFile:
     jsonObject = json.load(jsonFile)
     jsonFile.close()
-test(jsonObject['input'])
+res['mass accumulation rates'] = test(jsonObject['data'])
 
 
 # Test Sedimentation Rates
@@ -31,4 +51,8 @@ print("\n\n### Testing sedimentation rates: ###\n")
 with open("test-sr.json") as jsonFile:
     jsonObject = json.load(jsonFile)
     jsonFile.close()
-test(jsonObject['input'])
+res['sedimentation rates'] = test(jsonObject['data'])
+
+# Print results
+print('\n### RESULT ###')
+print(res)

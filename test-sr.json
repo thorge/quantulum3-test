@@ -1,43 +1,82 @@
 {
-    "input": [
+    "data": [
         {
-            "text": "We have a sedimentation rate of 10 mm/yr."
+            "text": "We have a sedimentation rate of 10 mm/yr.",
+            "value": 10,
+            "entity": "sedimentation rate",
+            "unit": "millimetre per year"
         },
         {
-            "text": "We have a sedimentation rate of 10 cm/day."
+            "text": "We have a sedimentation rate of 10 cm/day.",
+            "value": 10,
+            "entity": "sedimentation rate",
+            "unit": "centimetre per day"
         },
         {
-            "text": "We have a sedimentation rate of 10 km/yr."
+            "text": "We have a sedimentation rate of 10 km/yr.",
+            "value": 10,
+            "entity": "sedimentation rate",
+            "unit": "kilometre per year"            
         },
         {
-            "text": "We have a sedimentation rate of 10 cm/kyr."
+            "text": "We have a sedimentation rate of 10 cm/kyr.",
+            "value": 10,
+            "entity": "sedimentation rate",
+            "unit": "centimetre per kiloyear"
         },
         {
-            "text": "We have a sedimentation rate of 10 m/Kyr."
+            "text": "We have a sedimentation rate of 10 m/Kyr.",
+            "value": 10,
+            "entity": "sedimentation rate",
+            "unit": "metre per kiloyear"
         },
         {
-            "text": "We have a sedimentation rate of 10 m/Myr."
+            "text": "We have a sedimentation rate of 10 m/Myr.",
+            "value": 10,
+            "entity": "sedimentation rate",
+            "unit": "metre per megayear"
         },
         {
-            "text": "We have a sedimentation rate of 10 mm yr-1."
+            "text": "We have a sedimentation rate of 10 mm yr-1.",
+            "value": 10,
+            "entity": "sedimentation rate",
+            "unit": "millimetre per year"
         },
         {
-            "text": "We have a sedimentation rate of 10 mm yr^-1."
+            "text": "We have a sedimentation rate of 10 mm yr^-1.",
+            "value": 10,
+            "entity": "sedimentation rate",
+            "unit": "millimetre per year"
         },
         {
-            "text": "We have a sedimentation rate of 10 mm Kyr-1."
+            "text": "We have a sedimentation rate of 10 mm Kyr-1.",
+            "value": 10,
+            "entity": "sedimentation rate",
+            "unit": "millimetre per kiloyear"
         },
         {
-            "text": "We have a sedimentation rate of 10 mm Kyr^-1."
+            "text": "We have a sedimentation rate of 10 mm Kyr^-1.",
+            "value": 10,
+            "entity": "sedimentation rate",
+            "unit": "millimetre per kiloyear"
         },
         {
-            "text": "We have a sedimentation rate of 10 mm a^-1."
+            "text": "We have a sedimentation rate of 10 mm a^-1.",
+            "value": 10,
+            "entity": "sedimentation rate",
+            "unit": "millimetre per year"
         },
         {
-            "text": "We have a sedimentation rate of 10 mm Ka^-1."
+            "text": "We have a sedimentation rate of 10 mm Ka^-1.",
+            "value": 10,
+            "entity": "sedimentation rate",
+            "unit": "millimetre per kiloyear"
         },
         {
-            "text": "We have a sedimentation rate of 10 mm Ma^-1."
+            "text": "We have a sedimentation rate of 10 mm Ma^-1.",
+            "value": 10,
+            "entity": "sedimentation rate",
+            "unit": "millimetre per megayear"
         }
     ]
 }
