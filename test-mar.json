@@ -2,81 +2,133 @@
     "data": [
         {
             "text": "We have a mass accumulation rate of 10 g/cm2/yr.",
-            "value": 10,
-            "entity": "mass accumulation rate",
-            "unit": "gram per square centimetre per year"
+            "measurements": [
+                {
+                    "value": 10,
+                    "entity": "mass accumulation rate",
+                    "unit": "gram per square centimetre per year"
+                }
+            ]
         },
         {
             "text": "We have a mass accumulation rate of 10 kg/cm2/yr.",
-            "value": 10,
-            "entity": "mass accumulation rate",
-            "unit": "kilogram per square centimetre per year"
+            "measurements": [
+                {
+                    "value": 10,
+                    "entity": "mass accumulation rate",
+                    "unit": "kilogram per square centimetre per year"
+                }
+            ]
         },
         {
             "text": "We have a mass accumulation rate of 10 g/mm2/yr.",
-            "value": 10,
-            "entity": "mass accumulation rate",
-            "unit": "gram per square millimetre per year"
+            "measurements": [
+                {
+                    "value": 10,
+                    "entity": "mass accumulation rate",
+                    "unit": "gram per square millimetre per year"
+                }
+            ]
         },
         {
             "text": "We have a mass accumulation rate of 10 g/mm2/year.",
-            "value": 10,
-            "entity": "mass accumulation rate",
-            "unit": "gram per square millimetre per year"
+            "measurements": [
+                {
+                    "value": 10,
+                    "entity": "mass accumulation rate",
+                    "unit": "gram per square millimetre per year"
+                }
+            ]
         },
         {
             "text": "We have a mass accumulation rate of 10 g/mm2/kyr.",
-            "value": 10,
-            "entity": "mass accumulation rate",
-            "unit": "gram per square millimetre per kiloyear"
+            "measurements": [
+                {
+                    "value": 10,
+                    "entity": "mass accumulation rate",
+                    "unit": "gram per square millimetre per kiloyear"
+                }
+            ]
         },
         {
             "text": "We have a mass accumulation rate of 10 g/mm2/Kyr.",
-            "value": 10,
-            "entity": "mass accumulation rate",
-            "unit": "gram per square millimetre per kiloyear"
+            "measurements": [
+                {
+                    "value": 10,
+                    "entity": "mass accumulation rate",
+                    "unit": "gram per square millimetre per kiloyear"
+                }
+            ]
         },
         {
             "text": "We have a mass accumulation rate of 10 g/mm2/Myr.",
-            "value": 10,
-            "entity": "mass accumulation rate",
-            "unit": "gram per square millimetre per megayear"
+            "measurements": [
+                {
+                    "value": 10,
+                    "entity": "mass accumulation rate",
+                    "unit": "gram per square millimetre per megayear"
+                }
+            ]
         },
         {
             "text": "We have a mass accumulation rate of 10 kg cm^-2 yr^-1.",
-            "value": 10,
-            "entity": "mass accumulation rate",
-            "unit": "kilogram per square centimetre per year"
+            "measurements": [
+                {
+                    "value": 10,
+                    "entity": "mass accumulation rate",
+                    "unit": "kilogram per square centimetre per year"
+                }
+            ]
         },
         {
             "text": "We have a mass accumulation rate of 10 kg cm-2 yr-1.",
-            "value": 10,
-            "entity": "mass accumulation rate",
-            "unit": "kilogram per square centimetre per year"
+            "measurements": [
+                {
+                    "value": 10,
+                    "entity": "mass accumulation rate",
+                    "unit": "kilogram per square centimetre per year"
+                }
+            ]
         },
         {
             "text": "We have a mass accumulation rate of 10 kg cm-2 year-1.",
-            "value": 10,
-            "entity": "mass accumulation rate",
-            "unit": "kilogram per square centimetre per year"
+            "measurements": [
+                {
+                    "value": 10,
+                    "entity": "mass accumulation rate",
+                    "unit": "kilogram per square centimetre per year"
+                }
+            ]
         },
         {
             "text": "We have a mass accumulation rate of 10 kg cm-2 a-1.",
-            "value": 10,
-            "entity": "mass accumulation rate",
-            "unit": "kilogram per square centimetre per year"
+            "measurements": [
+                {
+                    "value": 10,
+                    "entity": "mass accumulation rate",
+                    "unit": "kilogram per square centimetre per year"
+                }
+            ]
         },
         {
             "text": "We have a mass accumulation rate of 10 kg cm-2 Ka-1.",
-            "value": 10,
-            "entity": "mass accumulation rate",
-            "unit": "kilogram per square centimetre per kiloyear"
+            "measurements": [
+                {
+                    "value": 10,
+                    "entity": "mass accumulation rate",
+                    "unit": "kilogram per square centimetre per kiloyear"
+                }
+            ]
         },
         {
             "text": "We have a mass accumulation rate of 10 kg cm-2 Ma-1.",
-            "value": 10,
-            "entity": "mass accumulation rate",
-            "unit": "kilogram per square centimetre per megayear"
+            "measurements": [
+                {
+                    "value": 10,
+                    "entity": "mass accumulation rate",
+                    "unit": "kilogram per square centimetre per megayear"
+                }
+            ]
         }
     ]
 }

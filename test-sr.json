@@ -2,81 +2,148 @@
     "data": [
         {
             "text": "We have a sedimentation rate of 10 mm/yr.",
-            "value": 10,
-            "entity": "sedimentation rate",
-            "unit": "millimetre per year"
+            "measurements": [
+                {
+                    "value": 10,
+                    "entity": "sedimentation rate",
+                    "unit": "millimetre per year"
+                }
+            ]
         },
         {
             "text": "We have a sedimentation rate of 10 cm/day.",
-            "value": 10,
-            "entity": "sedimentation rate",
-            "unit": "centimetre per day"
+            "measurements": [
+                {
+                    "value": 10,
+                    "entity": "sedimentation rate",
+                    "unit": "centimetre per day"
+                }
+            ]
         },
         {
-            "text": "We have a sedimentation rate of 10 km/yr.",
-            "value": 10,
-            "entity": "sedimentation rate",
-            "unit": "kilometre per year"            
+            "text": "We have a sedimentation rate of 2.98e-4 km/yr.",
+            "measurements": [
+                {
+                    "value": 2.98e-4,
+                    "entity": "sedimentation rate",
+                    "unit": "kilometre per year"
+                }
+            ]
         },
         {
             "text": "We have a sedimentation rate of 10 cm/kyr.",
-            "value": 10,
-            "entity": "sedimentation rate",
-            "unit": "centimetre per kiloyear"
+            "measurements": [
+                {
+                    "value": 10,
+                    "entity": "sedimentation rate",
+                    "unit": "centimetre per kiloyear"
+                }
+            ]
         },
         {
             "text": "We have a sedimentation rate of 10 m/Kyr.",
-            "value": 10,
-            "entity": "sedimentation rate",
-            "unit": "metre per kiloyear"
+            "measurements": [
+                {
+                    "value": 10,
+                    "entity": "sedimentation rate",
+                    "unit": "metre per kiloyear"
+                }
+            ]
         },
         {
             "text": "We have a sedimentation rate of 10 m/Myr.",
-            "value": 10,
-            "entity": "sedimentation rate",
-            "unit": "metre per megayear"
+            "measurements": [
+                {
+                    "value": 10,
+                    "entity": "sedimentation rate",
+                    "unit": "metre per megayear"
+                }
+            ]
         },
         {
             "text": "We have a sedimentation rate of 10 mm yr-1.",
-            "value": 10,
-            "entity": "sedimentation rate",
-            "unit": "millimetre per year"
+            "measurements": [
+                {
+                    "value": 10,
+                    "entity": "sedimentation rate",
+                    "unit": "millimetre per year"
+                }
+            ]
         },
         {
             "text": "We have a sedimentation rate of 10 mm yr^-1.",
-            "value": 10,
-            "entity": "sedimentation rate",
-            "unit": "millimetre per year"
+            "measurements": [
+                {
+                    "value": 10,
+                    "entity": "sedimentation rate",
+                    "unit": "millimetre per year"
+                }
+            ]
         },
         {
             "text": "We have a sedimentation rate of 10 mm Kyr-1.",
-            "value": 10,
-            "entity": "sedimentation rate",
-            "unit": "millimetre per kiloyear"
+            "measurements": [
+                {
+                    "value": 10,
+                    "entity": "sedimentation rate",
+                    "unit": "millimetre per kiloyear"
+                }
+            ]
         },
         {
             "text": "We have a sedimentation rate of 10 mm Kyr^-1.",
-            "value": 10,
-            "entity": "sedimentation rate",
-            "unit": "millimetre per kiloyear"
+            "measurements": [
+                {
+                    "value": 10,
+                    "entity": "sedimentation rate",
+                    "unit": "millimetre per kiloyear"
+                }
+            ]
         },
         {
             "text": "We have a sedimentation rate of 10 mm a^-1.",
-            "value": 10,
-            "entity": "sedimentation rate",
-            "unit": "millimetre per year"
+            "measurements": [
+                {
+                    "value": 10,
+                    "entity": "sedimentation rate",
+                    "unit": "millimetre per year"
+                }
+            ]
         },
         {
             "text": "We have a sedimentation rate of 10 mm Ka^-1.",
-            "value": 10,
-            "entity": "sedimentation rate",
-            "unit": "millimetre per kiloyear"
+            "measurements": [
+                {
+                    "value": 10,
+                    "entity": "sedimentation rate",
+                    "unit": "millimetre per kiloyear"
+                }
+            ]
         },
         {
             "text": "We have a sedimentation rate of 10 mm Ma^-1.",
-            "value": 10,
-            "entity": "sedimentation rate",
-            "unit": "millimetre per megayear"
+            "measurements": [
+                {
+                    "value": 10,
+                    "entity": "sedimentation rate",
+                    "unit": "millimetre per megayear"
+                }
+            ]
+        },
+        {
+            "text": "We have a sedimentation rate of 5–10 mm Ma^-1.",
+            "measurements": [
+                {
+                    "value": 5,
+                    "entity": "sedimentation rate",
+                    "unit": "millimetre per megayear"
+                },
+                {
+                    "value": 10,
+                    "entity": "sedimentation rate",
+                    "unit": "millimetre per megayear"
+                }
+            ]
         }
     ]
 }

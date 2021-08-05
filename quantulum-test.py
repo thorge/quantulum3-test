@@ -6,6 +6,7 @@ def test(input):
     values = 0
     entities = 0
     units = 0
+    total = 0
 
     i = 0
     for testCase in input:
@@ -14,17 +15,25 @@ def test(input):
             print(f'({i}): ' + testCase['text'])
             print(quants)
             i += 1
-            if quants[0].unit.name == testCase['unit']:
-                units += 1
-            if quants[0].unit.entity.name == testCase['entity']:
-                entities += 1
-            if quants[0].value == float(testCase['value']):
-                values += 1
+            for measurement in testCase['measurements']:
+                total += 1
+                key = 0
+                if quants[key].unit.name == measurement['unit']:
+                    units += 1
+                    print("Unit matches.")
+                if quants[key].unit.entity.name == measurement['entity']:
+                    entities += 1
+                    print("Entity matches.")
+                if quants[key].value == float(measurement['value']):
+                    values += 1
+                    print("Value matches.")
+                key += 1
+            print("\n")
         except:
             print('Could not process testcase: ' + testCase['text'])
 
     result = {
-        "total": len(input),
+        "total": total,
         "evaluation": {
             "values": values,
             "entities": entities,
@@ -55,4 +64,4 @@ res['sedimentation rates'] = test(jsonObject['data'])
 
 # Print results
 print('\n### RESULT ###')
-print(res)
+print(json.dumps(res, indent=4, sort_keys=False))
