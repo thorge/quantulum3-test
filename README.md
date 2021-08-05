@@ -1,4 +1,4 @@
-# Geo-Quantities FastAPI
+# Quantulum3 Test
 
 Simple application, that makes use of quantulum3 package for testing the extraction of mass accumulation rates (MAR) and sedimentation rates.
 
