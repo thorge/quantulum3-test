@@ -18,16 +18,16 @@ def test(input):
             for measurement in testCase['measurements']:
                 total += 1
                 key = 0
-                if quants[key].unit.name == measurement['unit']:
-                    units += 1
-                    print("Unit matches.")
-                if quants[key].unit.entity.name == measurement['entity']:
-                    entities += 1
-                    print("Entity matches.")
-                if quants[key].value == float(measurement['value']):
-                    values += 1
-                    print("Value matches.")
-                key += 1
+                for quant in quants:
+                    if quant.unit.name == measurement['unit']:
+                        units += 1
+                        print("Unit matches.")
+                    if quant.unit.entity.name == measurement['entity']:
+                        entities += 1
+                        print("Entity matches.")
+                    if quant.value == float(measurement['value']):
+                        values += 1
+                        print("Value matches.")
             print("\n")
         except:
             print('Could not process testcase: ' + testCase['text'])
